@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.first-view {
+  height: calc(100vh - 110px);
+  background-image: url(../img/mizuki.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.first-view-text {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  color: #f3dad9;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #050505;
+}
+
+.first-view-text h1 {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.lead p {
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.lead p span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+.point,
+.team,
+.envy,
+.twitter {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+  max-width: 90%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.point img,
+.team img,
+.envy img,
+.twitter img {
+  width: 360px;
+  margin-right: 20px;
+}
+
+.point-text,
+.team-text,
+.envy-text,
+.twitter-text {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.point-text p,
+.team-text p,
+.envy-text p,
+.twitter-text p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.twitter {
+  margin-bottom: 0;
+}

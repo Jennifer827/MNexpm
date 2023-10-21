@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+.first-view {
+  height: calc(100vh - 110px);
+  background-image: url(../img/leoneed.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.first-view-text {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-bottom: 80px;
+  color: #f3faf9;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #f3faf9;
+}
+
+.first-view-text h1 {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  font-size: 54px;
+  line-height: 72px;
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.lead p {
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.lead p span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+.install {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.install h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.install h1::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stores {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 15%;
+  /*padding-right: 60px;*/
+  /*overflow: scroll;*/
+}
+
+.stores li {
+  flex-shrink: 0;
+  width: 260px;
+  margin-left: 75px;
+}
+
+.stores li:first-child {
+  margin-left: 0;
+}
+
+.stores dl {
+  margin-top: 20px;
+  padding-bottom: 3px;
+}
+
+.stores dt {
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+}
+
+.stores dl:hover {
+  border-bottom: 3px solid #F0E475;
+  padding-bottom: 0px;
+}
+
+.links {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.links h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.links p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.links p::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bxslider {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 25%;
+  /*padding-right: 60px;*/
+  /*overflow: scroll;*/
+}
+
+.links li {
+  flex-shrink: 0;
+  width: 260px;
+}
+
+.links li:first-child {
+  margin-left: 0;
+}
+
+.links dl {
+  margin-top: 20px;
+}
+
+.links dt {
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-button-area {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.link-button {
+  background-color: #a9fff4;
+  display: inline-block;
+  min-width: 280px;
+  line-height: 64px;
+  border-radius: 36px;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  font-size: 24px;
+}
+
+.link-button:hover {
+  background-color: aqua;
+}
+
+
+@media (max-width: 800px) {
+  .first-view {
+    height: calc(100vh-50px);
+    background-image: url(../img/leoneed.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 100vh;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .first-view-text {
+    padding-top: 140px;
+    padding-left: 20px;
+  }
+
+  .first-view-text h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}

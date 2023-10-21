@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+.first-view {
+  height: calc(100vh - 110px);
+  background-image: url(../img/mafuyu.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.first-view-text {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  margin-right: 120px;
+  padding-bottom: 80px;
+  color: #9a629d;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #f5e3f6;
+}
+
+.first-view-text h1 {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  font-size: 84px;
+  line-height: 72px;
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.lead p {
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.lead p span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+.select-music,
+.two-d-mv {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.select-music h2,
+.two-d-mv h2 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.select-music p,
+.two-d-mv p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.select-music p::after,
+.two-d-mv p::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two-d-mv {
+  margin-bottom: 0;
+}
+
+.kinds {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.kinds li {
+  flex-shrink: 0;
+  width: 220px;
+  margin-left: 60px;
+}
+
+.kinds li:first-child {
+  margin-left: 0;
+}
+
+.kinds dl {
+  margin-top: 20px;
+}
+
+.kinds dt {
+  font-weight: bold;
+}
+
+.kinds dd {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.kinds span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+.clothes,
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+  max-width: 90%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.clothes img,
+.pictures img {
+  width: 360px;
+  margin-right: 20px;
+}
+
+.clothes-text,
+.pictures-text {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.clothes-text p,
+.pictures-text p {
+  margin-top: 20px;
+}

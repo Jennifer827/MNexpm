@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.first-view {
+  height: calc(100vh - 110px);
+  background-image: url(../img/shiho.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.first-view-text {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  color: #f2f245;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.first-view-text h1 {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.lead p {
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+}
+
+.lead p span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+.notes {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.notes h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.notes h1::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kinds {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.kinds li {
+  flex-shrink: 0;
+  width: 220px;
+  margin-left: 60px;
+}
+
+.kinds li:first-child {
+  margin-left: 0;
+}
+
+.kinds dl {
+  margin-top: 20px;
+}
+
+.kinds dt {
+  font-weight: bold;
+}
+
+.kinds dd {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.kinds span {
+  background: linear-gradient(transparent 50%, #a9fff4 50%);
+}
+
+
+.live {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.live h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.live h1::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.difficulty {
+  background-color: #f8f8f8;
+  padding-top: 45px;
+  padding-bottom: 55px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.difficulty h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.difficulty p::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 3px;
+  background-color: #000000;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.difficulty p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}

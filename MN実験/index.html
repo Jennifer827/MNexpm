@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="jas">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="プロセカ攻略サイトのトップページ">
+  <title>トップページ/プロセカ攻略サイト</title>
+
+  <script src="./js/toggle-menu.js"></script>
+  <script src="./js/index.js"></script>
+  <link href="./css/common.css" rel="stylesheet" />
+  <link href="./css/index.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <!--スライドショー用-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="./js/jquery.bxslider.js"></script>
+  <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $('.bxslider').bxSlider({
+        auto: true,
+      });
+    });
+  </script>
+  <!--ふわっとスクロール-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <!--headerここから-->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./how_to_play.html">遊び方</a></li>
+            <li><a href="music.html">楽曲</a></li>
+            <li><a href="event.html">イベント</a></li>
+            <li><a href="3dmv.html">3DMV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--headerここまで-->
+
+  <!--mainここから-->
+  <main class="main">
+    <div class="first-view">
+      <div class="first-view-text">
+        <h1>キミと見たいセカイへ！</h1>
+      </div>
+    </div>
+    <div class="lead">
+      <p>
+        <span>セカイへようこそ！<br></span><span>プロジェクトセカイは、スマートフォン・タブレットで遊べるリズムゲームです。<br></span><span>1000万DL、アクティブユーザ数100万以上の大人気ゲームをさあ始めましょう！<br></span>
+      </p>
+      <script>ScrollReveal().reveal('.lead', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+    <div class="install">
+      <h1>インストールはこちら</h1>
+      <ul class="stores">
+        <li><a href="https://onl.la/q4DiE7R"><img src="./img/app-store-logo.png"></a>
+          <dl>
+            <dt>App Storeへ</dt>
+          </dl>
+        </li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.sega.pjsekai"><img
+              src="./img/google-play-badge.png"></a>
+          <dl>
+            <dt>Google Play Storeへ</dt>
+          </dl>
+        </li>
+      </ul>
+      <script>ScrollReveal().reveal('.install', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+    <div class="links">
+      <h1>公式アカウント一覧</h1>
+      <p>ボタンをダブルクリックまたは右クリックして別タブで</p>
+      <div links-inner>
+        <ul class="bxslider">
+          <li><img src="./img/icon.jpg">
+            <dl>
+              <div class="link-button-area">
+                <dt><a href="https://twitter.com/pj_sekai?s=20" class="link-button">公式Twitter</a></dt>
+              </div>
+            </dl>
+          </li>
+          <li><img src="./img/miku1.jpg" width="309px">
+            <dl>
+              <div class="link-button-area">
+                <dt><a href="https://twitter.com/cpkondoyuichiro?s=21&t=-fduDyouDzWcKrMlqfPE7g"
+                    class="link-button">近藤さんTwitter</a></dt>
+              </div>
+            </dl>
+          </li>
+          <li><img src="./img/miku2.jpg" width="309px">
+            <dl>
+              <div class="link-button-area">
+                <dt><a href="https://www.youtube.com/@pj_sekai_colorfulstage/featured"
+                    class="link-button">公式YouTubeチャンネル</a></dt>
+              </div>
+            </dl>
+          </li>
+          <li><img src="./img/miku3.jpg" width="309px">
+            <dl>
+              <div class="link-button-area">
+                <dt><a href="https://pjsekai.sega.jp" class="link-button">公式サイト</a></dt>
+              </div>
+            </dl>
+          </li>
+        </ul>
+      </div>
+      <script>ScrollReveal().reveal('.links', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+  </main>
+  <!--mainここまで-->
+
+  <!--footerここから-->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="./index.html">ホーム</a></li>
+        <li><a href="./how_to_play.html">遊び方</a></li>
+        <li><a href="music.html">楽曲</a></li>
+        <li><a href="event.html">イベント</a></li>
+        <li><a href="3dmv.html">3DMV</a></li>
+      </ul>
+    </nav>
+    <a class="footer-logo" href="./index.html">
+      <img src="./img/logo.png">
+    </a>
+    <p class="copyright"><small>&copy;Uchida Yuiko</small></p>
+  </footer>
+  <!--footerここまで-->
+
+</body>
+
+</html>

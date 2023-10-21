@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="jas">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="遊び方の説明">
+  <title>遊び方/プロセカ攻略サイト</title>
+
+  <script src="./js/toggle-menu.js"></script>
+  <link href="./css/common.css" rel="stylesheet" />
+  <link href="./css/how_to_play.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <!--headerここから-->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <img src="./img/logo.png" alt="logo">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="./index.html">ホーム</a></li>
+            <li><a href="./how_to_play.html">遊び方</a></li>
+            <li><a href="music.html">楽曲</a></li>
+            <li><a href="event.html">イベント</a></li>
+            <li><a href="3dmv.html">3DMV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!--headerここまで-->
+
+  <!--mainここから-->
+  <main class="main">
+    <div class="first-view">
+      <div class="first-view-text">
+        <h1>遊び方</h1>
+      </div>
+    </div>
+
+    <div class="lead">
+      <p>
+        <span>基本の遊び方を紹介します。<br></span><span>これを読んで、実際に遊んでみましょう！<br></span>
+      </p>
+      <script>ScrollReveal().reveal('.lead', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+    <div class="notes">
+      <h1>ノーツの種類</h1>
+      <ul class="kinds">
+        <li><img src="./img/tap.png">
+          <dl>
+            <dt><span>単ノーツ</span></dt>
+            <dd>基本のノーツ。判定ラインに来た瞬間に画面をタップします。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/slide.png"></a>
+          <dl>
+            <dt><span>ホールド</span></dt>
+            <dd>緑の区間が終わるまで画面を押し続けます。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/flick.png"></a>
+          <dl>
+            <dt><span>フリック</span></dt>
+            <dd>赤または金色の矢印付きのノーツは上下左右いずれかの方向に弾くように押します。難易度の高い譜面では、弾く方向が指定されたノーツもあります。コツをつかむまで練習しましょう。</dd>
+          </dl>
+        </li>
+      </ul>
+      <script>ScrollReveal().reveal('.notes', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+    <div class="live">
+      <h1>ライブの種類</h1>
+      <ul class="kinds">
+        <li><img src="./img/solo.png">
+          <dl>
+            <dt><span>ひとりでライブ</span></dt>
+            <dd>ひとりで遊ぶモード。好きな曲を自由に練習できます。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/minrai.png"></a>
+          <dl>
+            <dt><span>みんなでライブ</span></dt>
+            <dd>自動マッチングまたは知り合いと5人でライブをします。ひとりでライブよりもらえる報酬が多くなります。曲のリクエストが複数合った場合はルーレットで決まります。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/challerai.png"></a>
+          <dl>
+            <dt><span>チャレンジライブ</span></dt>
+            <dd>1日1回できるライブです。スコアの高さを競います。報酬が良いので、毎日欠かさずやりましょう。</dd>
+          </dl>
+        </li>
+      </ul>
+      <script>ScrollReveal().reveal('.live', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+
+    <div class="difficulty">
+      <h1>譜面の難易度</h1>
+      <p>各曲には5種類の難易度があり、初心者から超上級者まで楽しむことができます。</p>
+      <ul class="kinds">
+        <li><img src="./img/dif5.png">
+          <dl>
+            <dt><span>最も簡単</span></dt>
+            <dd>全くの初心者でも遊べるような、最も簡単な譜面ですが、中級者が精度を向上させるトレーニングとしても使えます。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/dif26.png"></a>
+          <dl>
+            <dt><span>中級</span></dt>
+            <dd>遊べる曲数はどんどん増加しており、多種多様な譜面をプレイできます。</dd>
+          </dl>
+        </li>
+        <li><img src="./img/dif37.png"></a>
+          <dl>
+            <dt><span>最難関</span></dt>
+            <dd>他のリズムゲームと比較しても上位に来るような最「凶」の譜面もあります。腕に自信のある他ゲーのプレイヤーはぜひ挑戦してみてほしいです。</dd>
+          </dl>
+        </li>
+      </ul>
+      <script>ScrollReveal().reveal('.difficulty', {
+          duration: 2400,
+          origin: 'left',
+          distance: '80px',
+          reset: true
+        })</script>
+    </div>
+  </main>
+  <!--mainここまで-->
+
+  <!--footerここから-->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="./index.html">ホーム</a></li>
+        <li><a href="./how_to_play.html">遊び方</a></li>
+        <li><a href="music.html">楽曲</a></li>
+        <li><a href="event.html">イベント</a></li>
+        <li><a href="3dmv.html">3DMV</a></li>
+      </ul>
+    </nav>
+    <a class="footer-logo" href="./index.html">
+      <img src="./img/logo.png">
+    </a>
+    <p class="copyright"><small>&copy;Uchida Yuiko</small></p>
+  </footer>
+  <!--footerここまで-->
+
+</body>
+
+</html>
